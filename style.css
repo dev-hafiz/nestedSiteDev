@@ -6,6 +6,12 @@ body{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 30px;
+}
+.spn-clor{
+    color: orange;
+}
 
 .flexible-container{
     display: flex;
@@ -33,4 +39,34 @@ h1{
 .bg-top-section{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+.bg-mid-sec{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+
+}
+.common-item-class {
+    width: 40%;
+    box-shadow: 10px 10px 30px gray;
+    margin-left: 5%;
+    padding-left: 5%;
+}
+.bg-bottom-banner{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#first-brd-radious{
+    border-left: 5px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#next-brd-radious{
+    border-left: 5px solid;
+    border-image: linear-gradient(rgb(34, 13, 226),rgb(27, 5, 1));
+    border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
